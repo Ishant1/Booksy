@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "book-recommender"
+version = "0.1.0"
+description = ""
+authors = ["Ishant Aggarwal <iagg1946@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.34.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
