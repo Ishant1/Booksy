@@ -27,7 +27,7 @@ def tile_item(column, item):
   with column:
     st.button('📖', key=random(), on_click=select_book, args=(item['ISBN'], ))
     with st.container(height=200, border=False):
-      st.image(item['Image-URL-M'], use_column_width='always')
+      st.image(item['Image-URL-M'], width=80)
       st.caption(item['Book-Title'])
 
     button_cols = st.columns(2)
