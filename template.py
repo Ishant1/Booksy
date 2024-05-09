@@ -18,7 +18,7 @@ def like_book(isbn, dislike=False):
 
 def select_user(userid):
   st.session_state['User-ID'] = userid
-  st.session_state['User'] = get_user(userid, st.session_state['All_Users'])
+  st.session_state['User'] = get_user(userid)
 
 def add_friend(friends_list):
   st.session_state['Friends'] = friends_list
