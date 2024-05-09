@@ -22,4 +22,4 @@ def load_all_data():
 
 
 def get_user(id):
-    return st.session_state['All_Users'].loc[id,:].to_dict()
+    return st.session_state['All_Users'].loc[id-1,:].to_dict()
